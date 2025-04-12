@@ -4,7 +4,7 @@
   --------------------------------------------------------------------------------------
 */
 const getList = async () => {
-  const url = 'http://127.0.0.1:5000/passageiros';
+  const url = 'http://127.0.0.1:5001/passageiros';
   fetch(url, {
     method: 'get',
   })
@@ -38,7 +38,7 @@ const postItem = async (inputPassageiro, inputCPF, inputFlight) => {
     flight: inputFlight
   };
 
-  const url = 'http://127.0.0.1:5000/passageiro';
+  const url = 'http://127.0.0.1:5001/passageiro';
   fetch(url, {
     method: 'post',
     headers: {
@@ -99,7 +99,7 @@ const putItem = async (id, inputPassageiro, inputCPF, inputFlight) => {
     flight: inputFlight
   };
 
-  const url = 'http://127.0.0.1:5000/passageiro';
+  const url = 'http://127.0.0.1:5001/passageiro';
   fetch(url, {
     method: 'put',
     headers: {
@@ -204,7 +204,7 @@ const removeElement = () => {
 const deleteItem = (item) => {
   console.log(item)
   
-  const url = 'http://127.0.0.1:5000/passageiro?cpf=' + item;
+  const url = 'http://127.0.0.1:5001/passageiro?cpf=' + item;
   fetch(url, {
     method: 'delete'
   })
