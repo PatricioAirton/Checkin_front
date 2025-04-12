@@ -1,8 +1,18 @@
 # Meu Front
 
-Este pequeno projeto faz parte do material diático da Disciplina **Desenvolvimento Full Stack Básico** 
+Este projeto foi idealizado para prover uma página web onde um operador de um vertiport possa gerenciar a lista de passageiros
+confirmados para um voo de eVTOL (Veículo Elétrico que pousa e decola na vertical).
 
-O objetivo aqui é ilutsrar o conteúdo apresentado na terceira aula.
+O projeto do MVP foi desenvolvido de forma desacoplada, ou seja, com o back-end e o fron-end implementados separadamente em
+repositórios distintos.
+
+Conforme visto em aula, foi utilizada a linguagem HTML na imnplementação do front-end. A organização e o layout foram realizadas utilizando o CSS.
+
+Em relaçào à responsividade da página e a comunicação com o back-end foi implementada por meio do Javascript.
+
+Dessa forma, o operador de um vertiport poderá visualizar e gerenciar a lista de passageiros confirmados para o voo do eVTOL por meio de uma interface
+amigável.
+
 
 ---
 ## Como executar
